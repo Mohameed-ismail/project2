@@ -1,0 +1,506 @@
+body {
+    box-sizing: content-box;
+    margin: 0;
+}
+
+header {
+    background-image: url(assets/img/header-bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    display: flex;
+}
+
+.nav-bar {
+    height: 70px;
+    width: 100%;
+    padding-top: 5px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(42 41 43);
+    /* background-color: transparent; */
+
+}
+
+.nav-bar img {
+    width: 200px;
+    padding: 10px;
+    margin-left: 8%;
+}
+
+a {
+    color: rgb(207, 197, 197);
+    text-decoration: none;
+}
+
+.nav-bar ul {
+
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    color: rgb(207, 197, 197);
+    margin-left: 25%;
+}
+
+.nav-bar ul li {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+ul li a:hover {
+    color: #FFC800;
+}
+
+.div-p {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white !important;
+}
+
+.div-p .div-p1 {
+    font-style: italic;
+    font-size: 40px;
+    margin-top: 8%;
+
+}
+
+.div-p .div-p2 {
+    margin-top: 0%;
+    margin-bottom: 4%;
+    font-size: 70px;
+}
+
+.boutom a {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 40px;
+    background-color: #FFC800;
+    width: 150px;
+    color: #FFFFFF;
+    border-radius: 3px;
+}
+
+.boutom a:hover {
+    background-color: #dbad08;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.ar1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ar1-div-p1 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0;
+
+}
+
+.ar1-div-p2 {
+    color: rgb(150, 143, 143);
+    font-style: italic;
+}
+
+.ar2 {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+    margin-left: 10%;
+    height: 400px;
+}
+
+.ar2 .ar2-div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ar2 .ar2-div1 img {
+    text-align: center;
+    width: 150px;
+    height: 150px;
+
+}
+
+.ar2 .ar2-div1 .ar2-div1-p1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.ar2 .ar2-div1 .ar2-div1-p2 {
+    text-align: center;
+    color: rgb(150, 143, 143);
+}
+
+.ar3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #eee;
+}
+
+.ar3-ar2 {
+    width: 96%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4%;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    min-width: 80%;
+
+
+}
+
+.ar3-ar2-div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.33%;
+    height: 400px;
+    margin-right: -1%;
+
+
+}
+
+.ar3-ar2-div1 img {
+    display: flex;
+    width: 350px;
+    height: 250px;
+}
+
+.ar3-ar2-div2 {
+    background-color: white;
+    width: 350px;
+    text-align: center;
+}
+
+.ar3-ar2-div2-p1 {
+    color: #212529;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: -5%;
+
+}
+
+.ar3-ar2-div2-p2 {
+    color: rgb(131, 123, 123);
+    font-size: 16px;
+    font-style: italic;
+    padding: 5px;
+
+}
+
+
+
+.ar4 {
+
+    width: 80%;
+    display: grid;
+    grid-template-rows: auto;
+    margin-left: 10%;
+    row-gap: 40px;
+}
+
+.ar5 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #eee;
+}
+
+.ar5-ar1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ar5-ar1-p1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0;
+
+}
+
+.ar5-ar1-p2 {
+    color: rgb(150, 143, 143);
+    font-style: italic;
+}
+
+.ar5-ar2 {
+    width: 80%;
+    margin-left: 8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ar5-ar2-div1 {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img-team img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 15%;
+    box-shadow: 0 0 12px 0 rgb(173, 163, 163);
+}
+
+.ar5-ar2-div2 {
+    width: 100%;
+}
+
+.ar5-ar2-div2-p1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #212529;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.ar5-ar2-div2-p2 {
+    font-size: 18px;
+    color: rgb(131, 123, 123);
+    text-align: center;
+    margin-top: 1%;
+
+}
+
+.icon-team {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+
+.div-lorem {
+    padding: 40px;
+    width: 45%;
+    margin-left: 22%;
+    text-align: center;
+    color: rgb(131, 123, 123);
+}
+
+.ar6 {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.ar6 div {
+    width: 19%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.ar6 img {
+    width: 150px;
+    height: 100px;
+}
+
+.ar7 {
+    background-image: url(assets/img/who-owns-the-digital-map-of-the-world-laura-bliss-citylab.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ar7-ar2 {
+    width: 80%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ar7-ar2-div1 {
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.inpout1 {
+    width: 96%;
+    height: 22%;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(131, 123, 123);
+}
+
+.ar7-ar2-div2 {
+    width: 50%;
+    height: 300px;
+}
+
+.area {
+    border-radius: 10px;
+
+    font-weight: bold;
+    color: rgb(131, 123, 123);
+}
+
+
+
+footer {
+    padding: 30px;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.copy {
+    font-size: 20px;
+    color: #212529;
+}
+
+.footericon {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-a {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.footer-a a {
+    color: #212529;
+}
+
+.ar4-ar2 {
+    padding-top: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    column-gap: 10px;
+    justify-content: center;
+    width: 100%;
+    column-gap: 4%;
+}
+
+.ar4-ar3 {
+    padding-top: 24px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    column-gap: 10px;
+    justify-content: center;
+    width: 100%;
+    column-gap: 4%;
+}
+
+.ar4-ar3-div2 {
+    display: flex;
+    justify-content: end;
+    margin-right: 3%;
+}
+
+
+.ar4-ar2-div2 div img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 18px 0;
+
+}
+
+.ar4-ar3-div2 div img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 18px 0;
+
+}
+
+.ar4-ar3-div2 div p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #FFC800;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 0 18px 0 gray;
+    text-align: center;
+}
+
+.ar4-ar2-div2 {
+    margin-right: 10%;
+}
+
+.ar4-ar2-div1 {
+    width: 80%;
+    text-align: end;
+    margin-left: 18%;
+}
+
+.ar4-ar2-div1-p1 {
+    font-size: 33px;
+    color: #212529;
+    margin: 0 0 8px;
+}
+
+.ar4-ar2-div1-p2 {
+    margin: 0 0 8px;
+    font-size: 31px;
+    color: #212529;
+}
+
+.ar4-ar2-div1-p3 {
+    margin: 0 0 8px;
+    font-size: 20px;
+    color: rgb(131, 123, 123);
+}
